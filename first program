@@ -1,0 +1,41 @@
+jshell - JShell is an interactive tool introduced in Java 9 to provide developers with an environment for quickly prototyping and experimenting with Java code. 
+" jshell " is command use for above purpose
+to exit jshell
+  command /ex or /exit 
+
+ KEYWORD :
+      keyword is the predefined word in java
+      int myFirstNumber =5;
+
+#java's primitive types
+     whole number       real number
+       byte        
+      short              float       
+       int               double
+       long 
+     single char        boolean value
+        char               boolean
+
+Integer.MIN_VALUE // integer is the wrapper class in java
+//above and below integer value it can be overflow or underflow
+
+WRAPPER CLASSES:
+    java uses the concept of a wrapper class, for all of its eight primitive
+    data types 
+    A wrapper class provide simple operations, as well as some basic information 
+    about the primitive , which cannot stored on the primitive itself
+
+    byte store up to 8 bits
+    short store up to 16 bits
+    int stores up to 32 bits
+    long stores up to 54 bits
+
+# LONG 
+     the number 100 , by default , is an int
+     long is one of these types and its suffix is L or l
+     this is the instance in java is not case sensitive , as lowercase'l' or an
+     uppercase 'L' at the end of a whole number mean the same thing 
+  
+      
+
+        
