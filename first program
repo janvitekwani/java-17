@@ -35,7 +35,51 @@ WRAPPER CLASSES:
      long is one of these types and its suffix is L or l
      this is the instance in java is not case sensitive , as lowercase'l' or an
      uppercase 'L' at the end of a whole number mean the same thing 
+
+in float and double suffix is optional to use
+       In Java, putting the f or F suffix at the end of a floating-point literal is necessary 
+       to explicitly indicate that the number is a float type. By default, floating-point literals without
+       a suffix are considered to be of type double.
   
-      
+      but where as it is not as necessary in double 
+      double is precise than double so u donot have to give more precise value then
+      double
+
+
+myfloatValue = 5f/2f;
+mydoublevalue = 5d/2d;
+
+myfloatvalue = 5f/ 3f;
+myfloatvalue==> 1.6666666
+
+mydoublevalue = 5d/ 3d;
+myfloatvalue==> 1.6666666666666667
+
+// by default it is giving the double value 
+mydoublevalue =5.00 /3.00
+mydoublevalue ==> 1.6666666666666667
+
+Q why double is better choice in most circumstances?
+  1) it is actually faster to process on many modern computer because computer
+     at the chip level , the functionality to actually deal with these double 
+     numbers faster than the equivalent float.
+  2) and java libraries has math function 
+  3) creators of java selected the double becomes more precise , it can 
+      handle larger range of numbers
+
+//String are Immutable, but can be used much like primitive datatype
+stringbuilder class is mutuable , but doesnot share the string's special
+features, such a being able to assign it a string literal or use the + 
+operator on it 
+
+
+
+
+     
+
+
+
+
+
 
         
