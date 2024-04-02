@@ -30,7 +30,7 @@ WRAPPER CLASSES:
     int stores up to 32 bits
     long stores up to 54 bits
 
-# LONG 
+# LONG   *but default int is long , if u donot l after assigning the value it will take upto the limit l *
      the number 100 , by default , is an int
      long is one of these types and its suffix is L or l
      this is the instance in java is not case sensitive , as lowercase'l' or an
