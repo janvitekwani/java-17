@@ -73,6 +73,25 @@ features, such a being able to assign it a string literal or use the +
 operator on it 
 
 
+## CHAR 
+   range of the char value is given by unicode it has value from maximum value is '\uffff' and min value is '\u0000'
+
+
+********* strings and array in java are considerred as non primitive type ***************
+
+******* smallest storage unit in programming is variable ***********
+variable in programming
+    their are types of variable
+     1) local variable : variable define inside the body of the method is called as local variable
+                        and this can't be excess by the other method 
+                       * local variable cant be made static 
+
+     2) instance variable : variable declared inside the class but outside the body of the method
+                          it can't be decalared static
+     3) static variable:
+                      variable declared static 
+                
+
 
 
      
