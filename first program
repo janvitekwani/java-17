@@ -80,21 +80,43 @@ operator on it
 ********* strings and array in java are considerred as non primitive type ***************
 
 ******* smallest storage unit in programming is variable ***********
-variable in programming
-    their are types of variable
-     1) local variable : variable define inside the body of the method is called as local variable
+
+
+   # variable in programming
+       their are types of variable
+         1) local variable : variable define inside the body of the method is called as local variable
                         and this can't be excess by the other method 
                        * local variable cant be made static 
+                       * access modifier can't be decalred with access modifier
 
-     2) instance variable : variable declared inside the class but outside the body of the method
-                          it can't be decalared static
-     3) static variable:
-                      variable declared static 
-                
+         2) instance variable : variable declared inside the class but outside the body of the method
+                          it can't be decalared static , create with new keyword (for eg: scanner)
+         3) static variable:
+                      variable declared static , memory of the static variable is decalred whn class is loaded
+                       variable is decalred inside the class
+          4) parameter
+
+
+eg : program  ecxplaining the local variable , instance variable , static variable 
+
+
+#########    in boolean we must intialise the local variable , otherwise it will show an error that a local
+               variable not initalised 
+
+* java is  a statically typed lang
+int speedlimit = 'a'; // this will give integer value 97
+int speedlimit ="a"; // this will give type mismatch error 
+char speedlimit = 'a' // this will give char value a
+
+// same variable can't be intialised again and again because then it will give the error duplicate local variable 
+  this proves that every variable is  a unique name 
+
+  Rule 's of variable 1) variable can be start with _age , $age
+                      2) variable name can't start with number int 1age, int my age
+                            but we can write my9age this can work
 
 
 
-     
 
 
 
