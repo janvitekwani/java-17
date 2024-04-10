@@ -1,0 +1,11 @@
+
+  STATIC keyword 
+  static keyword if useful for representing meta data means data about data , means it is used to share the informatation about 
+  class though by using static keyword information can be shared among all members of class
+
+  static variables // if u have a very small information'
+  static method // if u have lot's informatiom
+  static class 
+  static blocks
+  
+
