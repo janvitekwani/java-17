@@ -7,5 +7,97 @@
   static method // if u have lot's informatiom
   static class 
   static blocks
+
+
+
+
+  STATIC keyword 
+  static keyword if useful for representing meta data means data about data , means it is used to share the informatation about 
+  class though by using static keyword information can be shared among all members of class
+
+  static variables // if u have a very small information'
+  static method // if u have lot's informatiom
+  static class 
+  static blocks
   
+
+
+class HondaCity                                            price
+{                                                     h1     10      h2  
+   static long price =10;                           a,b             a,b 
+
+   int a , b;                                      //   price is the only one variable and it is 
+                                                        shared by all the objects of the class
+ static double onRoadPrice(String city)         
+{                                                   // static variable can be accessing just knowing the
+   switch (city)                                       price name 
+  {                                                // static member can be called without creating the 
+     case "delhi"                                     object 
+          return price+price*0.1;                   // static memeber is present inside the method area
+      case "mumbai"                                     and it is available once the class is loaded
+          return price+price*0.09;
+}                                                  
+}                                                    properties of static methods
+                                                     1)they belong to a class , they are comman for all
+class Test                                            the method
+{                                                    2) they can be called just by giving the class name we donot 
+                                                       need to make object for it 
+  p.s.v main()                                       3)  static method can access only static variables or other static methods
+                                                        they can't access other non -static methods, variable
+{                                               
+  hondacity h1 = new hondacity();
+  hondacity h2 = new hondacity();                 inside static methods u can't use the keyword like super or this
+  s.o.p (hondacity.price);                            because all these represents instance of a class
+}
+}
+
+
+eg 1
+
+  public class Main                                       // the class which is loaded their static block
+{                                                            will be loaded
+    static
+    {
+        System.out.println("Block 1");                       output will be 
+    }                                                         Block 1 and Block 2 
+    public static void main (String [] args)
+    {  }
+    
+    static 
+     {   System.out.println("Block 2"); }
+     
+}
+
+
+
+
+eg 2
+and if we want to load the static block  of other class than we have to make the make object of that class
+
+
+
+class test
+{
+    static
+    {
+        System.out.println("block1 ");
+    }
+    static
+    {
+        System.out.println("block 2");
+    }
+}
+
+
+and if we want to load the static block  of other class than we have to make the make object of that class
+public class Main
+{
+    public static void main(String []agrs)
+    {
+        test t = new test();
+        System.out.println("Main");
+
+    }
+
+}
 
